@@ -16,8 +16,20 @@
 
 
 <style>
-    html, body {
-        background: gray;
+
+    #main-container {
+        max-width: 95%;
+        background: #fff;
+        border-radius: 20px;
+        z-index: 20000;
+        margin-top: -50px;
+    }
+
+    .carousel-item {
+        background-image: url('img/header-image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
     }
 
     img {
@@ -26,6 +38,7 @@
         border: 1px solid black;
         background-repeat: no-repeat;
         background-size: auto;
+        visibility: hidden;
     }
     ul  {
     list-style: none;
@@ -79,22 +92,58 @@ button {
         </div>
         </div>
     </div>
-    <div class="container-fluid padding" id="main-container">
+    <div class="container-fluid padding shadow p-3 mb-5 bg-white rounded" id="main-container">
         <div class="row welcome text-center">
             <div class="col-12">
-                <h1 class="display-4">Built with ease</h1>
+                <h1 class="display-4">About me</h1>
             </div>
             <hr>
             <div class="col-12">
-                <p class="lead">there's going to be some text I'll put down here with 
-                    some other stuff. this is just dummy text for now in order to get a 
-                    feel for what exactly is going on size wise. I need to see how much space I can actually
-                    take up without it looking like absolute garbo.
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reiciendis amet saepe velit, expedita delectus assumenda quos illum, ex cum voluptas? Iste aliquam consectetur harum perferendis sapiente iure totam dolore?
                 </p>
             </div>
         </div>
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h1 class="display-4">Skills</h1>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-code"></i>
+                    <h3>Front End</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Dev Tools</h3>
+                    <ul>
+                        <li>Vistual Studio</li>
+                        <li>Git</li>
+                        <li>Github</li>
+                        <li>Codepen</li>
+                        <li>Bash</li>
+                        <li>Command line</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <i class="fas fa-gears"></i>
+                    <h3>Back End</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>NoSQL</li>
+                        <li>MySQL</li>
+                        <li>Node.js</li>
+                    </ul>
+            </div>
     </div>
-    <div class="container-fluid padding">
+    <!-- <div class="container-fluid padding">
         <div class="row text-center padding">
             <div class="col-12">
                 <h1 class="display-4">Skills</h1>
@@ -134,7 +183,7 @@ button {
                 </ul>
         </div>
         <hr class="my-4">
-    </div>
+    </div> -->
     <div class="container-fluid">
 
     </div>
