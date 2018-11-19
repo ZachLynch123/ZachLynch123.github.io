@@ -17,6 +17,12 @@
 
 <style>
 
+#header {
+    background-image: url('img/header-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
     
     #main-container {
         max-width: 95%;
@@ -24,31 +30,25 @@
         z-index: 20000;
         margin-top: -50px;
     }
-
-    .carousel-item {
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
-    }
-
-    #invis {
-        max-width: 100%;
-        filter: blur(3px);
-        border: 1px solid black;
-        background-repeat: no-repeat;
-        background-size: auto;
-        visibility: hidden;
-    }
     ul  {
     list-style: none;
 }
-.carousel-caption {
-    background: rgba(0, 0,0, .3);
-    margin-bottom: 20%;
+#caption {
+    padding: 20%;
+}
+#caption-text {
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;
+}
+.display-3 {
+    color: white;
+}
+#caption-button {
+    margin-bottom: 7px;
 }
 button {
     margin-top: 30px;
+    border-radius: 20px;
 }
 
 #portfolio-section {
@@ -56,6 +56,8 @@ button {
 }
 
 .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: ivory;
     opacity: 0;
     transition: .5s;
 }
@@ -114,7 +116,7 @@ i {
         </div>
     </nav>
     <!--If last push didn't work, then create a container with the background of the image, then another div inside with the caption and button -->
-    <div class="carousel slide" id="slides" data-ride="carousel">
+    <!-- <div class="carousel slide" id="slides" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active" style="background-image: url('https://launchwestco.com/assets/uploads/2016/04/85434dc8441eabed150f0e90d1c8cc49_m.jpg');">
             <img class="img-fluid" id="invis" src="img/header-image.jpg" alt="slide1">
@@ -123,6 +125,19 @@ i {
                 <button type="button" class="btn btn-outline-light btn-lg">Contact me</button>
             </div>
         </div>
+        </div>
+    </div> -->
+    <div class="container-fluid" id="header">
+        <div class="container-fluid" id="caption">
+            <div class="row text-center padding" id="caption-text">
+                <div class="col-12">
+                <h1 class="display-3">Hi, I'm Zach. A Web Developer</h1>
+                </div>
+                <div class="col-12">
+                <button type="button" class="btn btn-outline-light btn-lg" id="caption-button">Contact me</button>
+                </div>
+            
+            </div>
         </div>
     </div>
     <div class="container-fluid padding shadow p-3 mb-5 bg-white rounded" id="main-container">
@@ -187,8 +202,8 @@ i {
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" id="discord" src="img/discord.png" alt="Card image cap">
                 <div class="card-img-overlay" id="discord">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">Discord bot</h5>
+                  <p class="card-text">A music bot for discord using node.js.Capable of playing music from youtube and creating a music playlist all from custom commands</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
@@ -197,8 +212,8 @@ i {
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" id="discord" src="img/discord.png" alt="Card image cap">
                 <div class="card-img-overlay" id="discord">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Restaurant Finder</h5>
+                    <p class="card-text">Uses geolocating and zomato api to get random restuarants near by with price range and review summary</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
@@ -224,7 +239,7 @@ i {
                 <p class="lead">Interested in working together? Let's talk.</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <Button class="btn btn-outline-light btn-lg"></Button>
+                <Button class="btn btn-outline-light btn-lg"> bur</Button>
             </div>
         </div>
     </div>
