@@ -1,5 +1,81 @@
-html,body {
-    background: gray;
+#header {
+    background-image: url('img/header-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+    
+    #main-container {
+        max-width: 95%;
+        background-color: #D9D9AB;
+        z-index: 20000;
+        margin-top: -50px;
+    }
+    ul  {
+    list-style: none;
+}
+#caption {
+    padding: 20%;
+}
+#caption-text {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.display-5 {
+    color: ivory;
+}
+#caption-button {
+    margin-bottom: 7px;
+}
+button {
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+.card {
+    background-color: #191970;
+    transition: .25s;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: ivory;
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.card:hover {
+    box-shadow: 3px 3px 6px gray;
+}
+.card-img-overlay:hover{
+    opacity: 1;
+}
+
+i {
+    color: #191970;
+}
+
+#footer-icon {
+    color: ivory;
+}
+
+.card {
+    margin: 10px;
+}
+
+#call-to-action {
+    max-width: 95%;
+    margin-top: 30px;
+    background-color: #191970;
+    z-index: 30;
+    border-radius: 30px;
+}
+
+#footer {
+    padding-top: 100px;
+    background-color: #191970;
 }
 
 
