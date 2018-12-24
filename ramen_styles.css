@@ -83,6 +83,7 @@ body {
     background: #000;
     color:white;
     padding: 10px 55px;
+    cursor: pointer;
 }
 
 .menu {
