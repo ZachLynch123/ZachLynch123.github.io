@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+#black-bg {
+    background-color: #1f2126!important;
+}
+
 body {
     margin: -8px;
     background-color: #fff7ea;
@@ -44,8 +49,11 @@ body {
 
   a {
     line-height: 1em;
-    color: #d6d4d3;
+    color: #d6d4d3!important;
     text-decoration: none;
+  }
+  a:hover {
+      text-decoration: none;
   }
 
 
