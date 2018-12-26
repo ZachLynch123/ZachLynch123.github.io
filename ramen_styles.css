@@ -1,6 +1,11 @@
-* {
+*{
     box-sizing: border-box;
 }
+
+#black-bg {
+    background-color: #1f2126!important;
+}
+
 body {
     margin: -8px;
     background-color: #fff7ea;
@@ -40,9 +45,15 @@ body {
     justify-content: space-around;
     font-family: 'Oswald', sans-serif;
   }
+
+
   a {
-    color: #d6d4d3;
+    line-height: 1em;
+    color: #d6d4d3!important;
     text-decoration: none;
+  }
+  a:hover {
+      text-decoration: none; 
   }
 
 
@@ -70,7 +81,7 @@ body {
 
 }
 
-.btn {
+.myButton {
     border: 2px solid black;
     background: transparent;
     text-align: center;
@@ -79,7 +90,7 @@ body {
     transition: .25s;
 }
 
-.btn:hover {
+.myButton:hover {
     background: #000;
     color:white;
     padding: 10px 55px;
@@ -166,6 +177,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
     .cover {
         background-size: 138% 94%;
         background-position-x: -66px;
@@ -179,9 +191,6 @@ body {
         background-size: 178% 100%;
     }
 
-    .container-fluid {
-        margin-top: 30vh;
-    }
 
     .text-1 {
         margin-top: 20vh;
@@ -206,9 +215,6 @@ body {
     }
 
     .stick {
-        visibility: hidden;
-    }
-}   .stick {
         visibility: hidden;
     }
 }
