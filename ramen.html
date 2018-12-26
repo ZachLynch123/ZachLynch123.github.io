@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="ramen_styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <title>Monta Chaya</title>
 </head>
 <body>
-        <div id="header">
-                <div class="logo">
-                <img src="img/pngfallback.png" id="header-img">
-                </div>
-                <h1 class="restaurant">Monta Chaya</h1>
-                <nav id="nav-bar">
-                  <ul>
-                    <li class="nav-link"><a href="#header-img">
-                        Home</a></li>
-                    <li class="nav-link"><a href="https://static.wixstatic.com/media/a54f79_1ecc716e7adc486e93dc6d71e21ffe1a~mv2_d_2317_1217_s_2.jpg/v1/fill/w_1247,h_655,al_c,q_90,usm_0.66_1.00_0.01/a54f79_1ecc716e7adc486e93dc6d71e21ffe1a~mv2_d_2317_1217_s_2.webp"
-                        >Menu</a></li>
-                    <li class="nav-link"><a href="https://www.google.com/maps/place/Monta+Chaya/@36.0160868,-115.1174927,20z/data=!4m13!1m7!3m6!1s0x80c8ce3f65bbd0a5:0x2fedff2f1f20b410!2s9500+S+Eastern+Ave+%23150,+Las+Vegas,+NV+89123!3b1!8m2!3d36.0164931!4d-115.1170689!3m4!1s0x80c8cf7d5c82801b:0x709f182fadf80a7d!8m2!3d36.0162568!4d-115.1171621">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="img/pngfallback.png" alt="logo" id="header-img"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#header-img" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="https://static.wixstatic.com/media/a54f79_1ecc716e7adc486e93dc6d71e21ffe1a~mv2_d_2317_1217_s_2.jpg/v1/fill/w_1247,h_655,al_c,q_90,usm_0.66_1.00_0.01/a54f79_1ecc716e7adc486e93dc6d71e21ffe1a~mv2_d_2317_1217_s_2.webp"
+                        >Menu</a></li></li>
+                        <li class="nav-link"><a href="https://www.google.com/maps/place/Monta+Chaya/@36.0160868,-115.1174927,20z/data=!4m13!1m7!3m6!1s0x80c8ce3f65bbd0a5:0x2fedff2f1f20b410!2s9500+S+Eastern+Ave+%23150,+Las+Vegas,+NV+89123!3b1!8m2!3d36.0164931!4d-115.1170689!3m4!1s0x80c8cf7d5c82801b:0x709f182fadf80a7d!8m2!3d36.0162568!4d-115.1171621">
                         Location</a></li>
-                  </ul>
-                </nav>
+                </ul>
             </div>
+        </div>
+    </nav>
     <div class="cover"></div>
     <div class="content">
         <div class="column-1">
@@ -35,14 +40,14 @@
         <div class="text-1">
             <h3>See the menu for Henderson's favorite Ramen shop.</h3>
             <a href="https://static.wixstatic.com/media/a54f79_1ecc716e7adc486e93dc6d71e21ffe1a~mv2_d_2317_1217_s_2.jpg/v1/fill/w_1247,h_655,al_c,q_90,usm_0.66_1.00_0.01/a54f79_1ecc716e7adc486e93dc6d71e21ffe1a~mv2_d_2317_1217_s_2.webp"
-            target="_blank"><button class="btn">View the Menu</button></a>
+            target="_blank"><button class="myButton">View the Menu</button></a>
         </div>
     </div>
         <div class="content">
         <div class="text-2">
             <h3>Stop by and experience traditional Japense Ramen in the most authentic way possible.</h3>
             <a href="https://static.wixstatic.com/media/a54f79_1ecc716e7adc486e93dc6d71e21ffe1a~mv2_d_2317_1217_s_2.jpg/v1/fill/w_1247,h_655,al_c,q_90,usm_0.66_1.00_0.01/a54f79_1ecc716e7adc486e93dc6d71e21ffe1a~mv2_d_2317_1217_s_2.webp"
-            target="_blank"><button class="btn">See the Menu</button></a>
+            target="_blank"><button class="myButton">See the Menu</button></a>
         </div>
         <div class="column-2" style="background-image: url('https://assets.bonappetit.com/photos/57ae038653e63daf11a4e122/2:1/w_880,c_limit/shoyu-ramen.jpg?mbid=social_retweet');">
             <div class="menu" id="shop-text">
