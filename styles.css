@@ -3,6 +3,7 @@
 }
 
 #header {
+    margin-top: -9vh;
     background-image: url('img/potential-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,6 +18,10 @@
     }
     ul  {
     list-style: none;
+}
+
+.skills-list {
+    margin-left: -30px;
 }
 
 .lead {
