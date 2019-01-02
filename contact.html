@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zach Lynch</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contactStyles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -34,7 +35,7 @@
                         <a href="#" class="nav-link">Resume</a>
                 </li>
                 <li class="nav-item">
-                        <a href="#skills" class="nav-link">Skills</a>
+                        <a href="index.html#skills" class="nav-link">Skills</a>
                 </li>
                 <li class="nav-item">
                         <a href="#portfolio-section" class="nav-link">Portfolio</a>
@@ -50,27 +51,22 @@
     <!-- Begin Jumbotron -->
     <div class="container-fluid" id="header">
         <div class="container-fluid" id="caption">
-            <div class="row welcome text-center" id="caption-text">
-                <div class="col-12">
-                <h1 class="display-5">Hi, I'm Zach. A Web Developer</h1>
-                </div>
-                <div class="col-12">
-                <button type="button" class="btn btn-outline-light btn-lg" id="caption-button">Contact me</button>
-                </div>
+            <div class="row welcome" id="caption-text">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name*</label>
+                        <input type="text" class="form-control" id="name" >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
     <!-- End Jumbotron -->
-
-    <!-- Start Main Content -->
-    <div class="container-fluid padding shadow p-3 mb-5 bg-white rounded" id="main-container">
-        <div class="row welcome text-center">
-            <div class="col-12">
-                <h1 class="display-4">About me</h1>
-            </div>
-            <hr>
-            <div class="col-12">
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reiciendis amet saepe velit, expedita delectus assumenda quos illum, ex cum voluptas? Iste aliquam consectetur harum perferendis sapiente iure totam dolore?
-                </p>
-            </div>
-        </div>

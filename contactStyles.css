@@ -1,0 +1,15 @@
+html {
+    overflow: hidden;
+}
+
+#caption{
+padding-top: 41vh;
+}
+
+form {
+    margin: 0 auto;
+}
+
+label {
+    color: white;
+}
