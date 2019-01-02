@@ -3,7 +3,7 @@ html {
 }
 
 #caption{
-padding-top: 41vh;
+padding-bottom: 24vh;
 }
 
 form {
@@ -12,4 +12,18 @@ form {
 
 label {
     color: white;
+}
+
+#message {
+    width: 22vw;
+}
+
+@media (max-width: 768px) {
+    #caption {
+        padding-bottom: 20vh;
+    }
+
+    #message {
+        width: 62vw;
+    }
 }
