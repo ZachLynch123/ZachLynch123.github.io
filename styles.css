@@ -2,6 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar {
+    background: rgba(0, 0, 0, 0.5)
+}
+
 #header {
     margin-top: -9vh;
     background-image: url('img/potential-header.jpg');
@@ -19,6 +23,10 @@
     }
     ul  {
     list-style: none;
+}
+
+#about {
+    padding: 12px
 }
 
 .skills-list {
@@ -95,6 +103,11 @@ i {
     background-color: #191970;
     z-index: 30;
     border-radius: 30px;
+}
+
+#footer-text {
+    margin-left: 2rem;
+    color: #fff;
 }
 
 #footer {
