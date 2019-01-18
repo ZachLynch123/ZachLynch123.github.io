@@ -6,6 +6,20 @@ html {
     background: rgba(0, 0, 0, 0.5); 
 }
 
+.first {
+    font-size: 1.5em;
+    color: #191970;
+}
+
+.second {
+    font-size: 1.5em;
+    color: rgba(255,255,255, 0.8);
+}
+
+.nav-link {
+    color: rgba(255,255,255, 0.8)
+}
+
 #caption{
 padding-bottom: 24vh;
 }
