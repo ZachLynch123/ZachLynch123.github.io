@@ -72,6 +72,7 @@ html, body {
     margin-left: -30px;
 }
 
+
 .name {
     font-size: 2.2rem;
 }
@@ -122,6 +123,9 @@ button {
     transition: .5s;
 }
 
+.card-text {
+    font-size: 8rem !important;
+}
 
 .card:hover {
     box-shadow: 3px 3px 6px gray;
@@ -139,12 +143,16 @@ i {
 }
 
 #portfolio-section {
-    max-width: 75%;
+    padding: 6% 10%
+}
+
+#portfolio-section hr {
+    margin: 1rem 0;
+    width: 20%;
 }
 
 .card {
     margin: 5px auto;
-
 }
 
 #call-to-action {
