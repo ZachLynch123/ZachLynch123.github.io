@@ -50,7 +50,15 @@
 }
 
 #about {
-    padding: 12px
+    padding: 6% 10%;
+    background-color: #f6f6f6
+}
+
+#comp-img {
+    height: auto;
+    width: auto;
+    background: url('img/happy-comp.png') center center no-repeat;
+    background-size: contain;
 }
 
 .skills-list {
