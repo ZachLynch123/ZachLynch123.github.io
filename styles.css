@@ -27,8 +27,7 @@
 
 #header {
     margin-top: -9vh;
-    background-image: url('img/potential-header.jpg');
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/header-img-1.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
@@ -44,6 +43,11 @@
     list-style: none;
 }
 
+.quote {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 #about {
     padding: 12px
 }
@@ -52,8 +56,8 @@
     margin-left: -30px;
 }
 
-.lead {
-    text-align: justify;
+.name {
+    font-size: 2.2rem;
 }
 
 #caption {
@@ -61,17 +65,28 @@
 }
 #caption-text {
     background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
 }
-.display-5 {
-    color: ivory;
+
+
+p {
+    font-size: 1.2rem;
+    margin: 1.7rem 0 !important;
 }
+
 #caption-button {
-    margin-bottom: 7px;
+    border: 1px solid #3d3dce;
+    transition: .5s;
 }
 button {
-    margin-top: 30px;
+    margin-top: .7rem;
     border-radius: 20px;
+}
+
+#caption-button:hover {
+    background-color: #191970;
+    color: #fff;
 }
 
 
