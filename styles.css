@@ -62,11 +62,10 @@ html, body {
     background-color: #f6f6f6
 }
 
-#comp-img {
-    height: auto;
-    width: auto;
-    background: url('img/happy-comp.png') center center no-repeat;
-    background-size: contain;
+.comp-img {
+    height: 400px;
+    width: 100%;
+    padding: 0 10%
 }
 
 .skills-list {
