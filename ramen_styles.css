@@ -163,7 +163,7 @@ body {
 .address {
     float: right;
     margin-right: 10px;
-
+    margin-top: 10px;
 }
 
 .address > a {
@@ -172,7 +172,7 @@ body {
     transition: .25s;
 }
 
-.address > a:hover {
+.address > p:hover {
     color: orange;
 }
 
