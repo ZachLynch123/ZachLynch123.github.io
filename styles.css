@@ -152,6 +152,7 @@ i {
 }
 
 .card {
+    width: 18rem;
     margin: 5px auto;
 }
 
@@ -174,3 +175,17 @@ i {
 }
 
 
+@media screen and (max-width: 768px) {
+    
+    #header {
+        margin-top: -20vh;
+    }
+
+    #caption-text {
+        display: none;
+    }
+
+    .card {
+        width: auto;
+    }
+}
