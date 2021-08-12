@@ -8,7 +8,7 @@ function setup() {
   values = [400];
   // gets 400 random whole numbers 1 - height 
   for (let i = 1; i < width; i++) {
-    values.push((Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0')); // creates 400 random hexidecimal colors
+    values.push(Math.floor(Math.random() * (400 - 1 + 1)) + 1); // creates 400 random hexidecimal colors
   }
   // sorted yay.. values = sort(values)
 }
